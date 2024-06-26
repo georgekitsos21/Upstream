@@ -12,7 +12,8 @@ This Maven project automates the testing of the DemoQA Online Shop (https://demo
 Ensure the following are installed:
 - Java Development Kit (JDK).
 - Maven Project
-- WebDriver for your browser (for example ChromeDriver for Google Chrome)
+- WebDriver for your browser (for example ChromeDriver for Google Chrome) with the proper version otherwise you will receive an error related to incompability of the version.
+
 
 ## Setup Instructions
 
