@@ -12,7 +12,6 @@ public class LoginTests extends BaseTests {
         loginpage.setUserNameInput("upstream");
         loginpage.setPasswordInput("Asd123!.");
         loginpage.clickLoginButton();
-        homePage.clickTextElement();
     }
 
     @Test(priority = 2)
