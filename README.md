@@ -11,7 +11,7 @@ This Maven project automates the testing of the DemoQA Online Shop (https://demo
 
 Ensure the following are installed:
 - Java Development Kit (JDK).
-- Apache Maven
+- Maven Project
 - WebDriver for your browser (for example ChromeDriver for Google Chrome)
 
 ## Setup Instructions
@@ -24,19 +24,17 @@ Ensure the following are installed:
 
     mvn clean install
 
-3. Configure WebDriver
+3. Configure WebDriver   System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
 
-    Download the WebDriver executable for your browser and add it to your system's PATH. Alternatively, specify its location in `BaseTest.java`:
+4. Download the WebDriver executable for your browser and add it to your system's PATH. Alternatively, specify its location in the BaseTests class
     
-    System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+
 
 ## Running the Tests
 
-1. Using Maven
+1.run the testng.xml file to run all the tests in the meantime.
 
-    mvn test
-
-2. Using an IDE
+2. Using an IDE and select the test that you want to test.
 
     - Open the project in your IDE.
     - Navigate to `src/test/java/tests`.
@@ -44,15 +42,10 @@ Ensure the following are installed:
 
 ## Test Details
 
-### LoginTest
+### LoginTests
 
-- Purpose: Verify user login.
-- File: `src/test/java/tests/LoginTest.java`
-
-### LogoutTest
-
-- Purpose: Verify user logout.
-- File: `src/test/java/tests/LogoutTest.java`
+- Purpose: Verify user login and log out.
+- File: `src/test/java/tests/LoginTests.java`
 
 ### BooksListTest
 
