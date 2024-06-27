@@ -1,4 +1,4 @@
-# Automated Testing Suite for DemoQA Online Shop
+# Automated Testing Suite for DemoQA Online Book Shop
 
 ## Project Overview
 
