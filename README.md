@@ -17,7 +17,7 @@ Ensure the following are installed:
 
 ## Setup Instructions
 
-1. Clone the Repository, git clone <https://github.com/georgekitsos21/Upstream_test/>
+1. Clone the Repository, git clone <https://github.com/georgekitsos21/Upstream/>
 
 2. Mvn clean install and install maven dependencies, then reload the project.
 
