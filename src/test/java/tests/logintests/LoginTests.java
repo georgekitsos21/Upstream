@@ -14,7 +14,7 @@ public class LoginTests extends BaseTests {
         loginpage.clickLoginButton();
     }
 
-    @Test(priority = 2)
+    @Test(priority = 2, dependsOnMethods = {"testLogin"})
     public void testLogOut(){
         profilePage.clickLogoutButton();
     }
