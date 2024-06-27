@@ -5,7 +5,7 @@
 This Maven project automates the testing of the DemoQA Online Shop (https://demoqa.com/books), including tests for:
 - Login functionality
 - Logout functionality
-- Verification of the book list against an expected list
+- Verification the number of the books against the expected 
 
 ## Prerequisites
 
