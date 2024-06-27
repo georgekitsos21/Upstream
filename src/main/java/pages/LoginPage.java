@@ -29,5 +29,4 @@ public class LoginPage {
         driver.findElement(loginButton).click();
         return new ProfilePage(driver);
     }
-
 }

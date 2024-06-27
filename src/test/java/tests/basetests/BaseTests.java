@@ -12,7 +12,6 @@ import pages.BooksPage;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.ProfilePage;
-
 import java.io.File;
 import java.io.IOException;
 

@@ -32,7 +32,6 @@ public class BooksPage {
         return booksTitles;
     }
 
-
     public void scrollToFooter(){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.visibilityOfElementLocated(scrollInToFooter));
