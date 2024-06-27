@@ -35,7 +35,7 @@ public class BooksPage {
 
     public void scrollToFooter(){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-        wait.until(ExpectedConditions.presenceOfElementLocated(scrollInToFooter));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(scrollInToFooter));
         WebElement scrollInToFooter = driver.findElement(this.scrollInToFooter);
         String script = "arguments[0].scrollIntoView(true)";
         ((JavascriptExecutor)driver).executeScript(script, scrollInToFooter);
