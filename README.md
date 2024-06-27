@@ -17,32 +17,26 @@ Ensure the following are installed:
 
 ## Setup Instructions
 
-1. Clone the Repository
+1. Clone the Repository, git clone <https://github.com/georgekitsos21/Upstream_test/>
 
-    git clone <https://github.com/georgekitsos21/Upstream_test/>
+2. Mvn clean install and install maven dependencies, then reload the project.
 
-2. Install Maven Dependencies
-
-    mvn clean install
-
-3. Configure WebDriver   System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
+3. Configure WebDriver, System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
 
 4. Download the WebDriver executable for your browser and add it to your system's PATH. Alternatively, specify its location in the BaseTests class
     
 
-
 ## Running the Tests
 
-1.run the testng.xml file to run all the tests in the meantime.
+1. Run the testng.xml file to run all the suite in the meantime and check the outcome.
 
-2. Using an IDE and select the test that you want to test.
+2. Using an IDE and select the test that you want to test first.
 
-    - Open the project in your IDE.
+    - Open the project in your IDE (i.e. IntelliJ)
     - Be sure that you did all the previous related to Prerequisites and set up unstructions.
     - Navigate to `src/test/java/tests`.
     - Right-click on a test class (e.g., LoginTests) and select `Run`.
     - Right-lcik on a different the class(e.g. BookTests) and select `Run`
-    - 
 
 ## Test Details
 
