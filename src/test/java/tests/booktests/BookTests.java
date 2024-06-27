@@ -15,6 +15,7 @@ public class BookTests extends BaseTests {
         loginpage.setUserNameInput("upstream");
         loginpage.setPasswordInput("Asd123!.");
         loginpage.clickLoginButton();
+        booksPage.scrollToFooter();
         List<String> expectedBooks = Arrays.asList("Git Pocket Guide", "Learning JavaScript Design Patterns",
                 "Designing Evolvable Web APIs with ASP.NET",  "Speaking JavaScript",  "You Don't Know JS",
                 "Programming JavaScript Applications",  "Eloquent JavaScript, Second Edition",
