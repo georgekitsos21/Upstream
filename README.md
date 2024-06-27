@@ -38,8 +38,11 @@ Ensure the following are installed:
 2. Using an IDE and select the test that you want to test.
 
     - Open the project in your IDE.
+    - Be sure that you did all the previous related to Prerequisites and set up unstructions.
     - Navigate to `src/test/java/tests`.
-    - Right-click on a test class (e.g., `LoginTest.java`) and select `Run`.
+    - Right-click on a test class (e.g., LoginTests) and select `Run`.
+    - Right-lcik on a different the class(e.g. BookTests) and select `Run`
+    - 
 
 ## Test Details
 
@@ -50,9 +53,8 @@ Ensure the following are installed:
 
 ### BooksListTest
 
-- Purpose: Verify book list against `books.csv`.
-- File: `src/test/java/tests/BooksListTest.java`
-- Data: `src/test/resources/books.csv`
+- Purpose: Verify book list
+- File: `src/test/java/tests/BooksTests.java`
 
 ## Notes
 
