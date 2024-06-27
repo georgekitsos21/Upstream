@@ -14,10 +14,12 @@ public class BooksPage {
     private WebDriver driver;
     private By listOftheBooks = By.cssSelector(".rt-tbody .rt-tr-group");
 
+    //Create the Constructor
     public BooksPage(WebDriver driver){
         this.driver = driver;
     }
 
+    //Check the number of the books
     public List<String> getTitleOfTheBooks(){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.urlToBe("https://demoqa.com/books"));

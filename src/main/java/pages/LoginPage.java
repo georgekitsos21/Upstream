@@ -13,12 +13,18 @@ public class LoginPage {
     public LoginPage(WebDriver driver) {
         this.driver = driver;
     }
+
+    //Fulfill the username field
     public void setUserNameInput(String username) {
         driver.findElement(userNameInput).sendKeys(username);
     }
+
+    //Fulfill the password field
     public void setPasswordInput(String password) {
         driver.findElement(passwordInput).sendKeys(password);
     }
+
+    //click to the login button
     public ProfilePage clickLoginButton(){
         driver.findElement(loginButton).click();
         return new ProfilePage(driver);
